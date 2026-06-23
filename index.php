@@ -17,7 +17,7 @@ if(isset($_POST["submit"])) {
     } else
     
     // Standard Deduction
-    $standardD = 15000;
+    $standardD = 16100;
     
     if($totalD < $standardD) {
         $totalD = $standardD;
